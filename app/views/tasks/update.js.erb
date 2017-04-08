@@ -1,3 +1,4 @@
 
-$('#tasks').html("<%= escape_javascript(render @tasks) %>");
+
+$('#tasks').html("<%= j (render @tasks) %>")
 $('#task-form').slideUp(350);
